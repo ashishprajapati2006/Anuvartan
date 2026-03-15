@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+#secrets
+service-node/serviceAccountKey.json
+
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.flaskenv
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Application Data
+service-node/patients.json
+service-node/patients.*.json
+
+# Large ML Model Files (use git-lfs if needed)
+*.joblib
+*.tflite
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# VSCode workspace settings
+.vscode/settings.json
